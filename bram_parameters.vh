@@ -1,0 +1,9 @@
+`ifndef __BRAM_PARAMETERS_VH
+`define __BRAM_PARAMETERS_VH 1
+
+`define BRAM_DATA_WIDTH   64
+`define BRAM_ADDR_WIDTH   32
+`define BRAM_KEEP_WIDTH   `BRAM_DATA_WIDTH / 8
+
+
+`endif
